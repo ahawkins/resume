@@ -1,0 +1,145 @@
+---
+first_name: Adam
+last_name: Hawkins
+location: Honolulu, HI
+phone: "+1 808 201 2215"
+tag_line: "Velocity, Reliability, Quality focused Software Professional"
+github: "https://github.com/ahawkins"
+twitter: "https://twitter.com/adman65"
+linkedin: "https://www.linkedin.com/in/adam-hawkins-53109b14b/"
+website: "https://www.slashdeploy.com"
+email: "adam@slashdeploy.com"
+archive: "https://www.slashdeploy.com/archive"
+intro: |
+  My goal is to help businesses succeed in software. This means accelerating
+  delivery, increasing reliability, and fewer regressions. In my view, DevOps
+  paired with the "you build it, you run it" mantra is the best methodology to
+  achieve these results.
+
+  I started building webapps with PHP and jumped to Ruby on Rails. I learned
+  software engineering fundamentals like OOP, TDD, and software architecture
+  through the Ruby community. Eventually I switched my focus to operations,
+  infrastructure engineering, and continuous delivery under the broad Site
+  Reliability Engineering umbrella. This provides me the necessary skillset to
+  work wherever in the build-deploy-operate lifecycle.
+
+  My ideal position is in a small distributed team where my decisions impact
+  the business bottom line.
+
+  On the personal side: I moved abroad in 2011 to work and travel the world.
+  Since then I've lived in Finland, Germany, Sweden, and India while visiting
+  many more before returning to the US in 2019. My hobbies are
+  [travel](http://isos.ahawkins.me), reading, trance, hiking, and surfing. My
+  preferred [dev setup](https://github.com/ahawkins/dotfiles) is MacOS, vim, a
+  terminal, and my HD280's.
+expertise:
+  - title: Full-Stack
+    description: |
+      "You build, you run it" is my default mode. Expertise with
+      [Ruby](https://www.joyofdesign.info) (and
+      [Rails](https://railscaching.com)), JavaScript, Node.js, Bash, Docker,
+      Kubernetes, and AWS means I can transform business requirements into
+      running software.
+      [TDD](https://www.slashdeploy.com/blog/2014/the-joy-of-teaching-tdd/) and
+      continous delivery ensure quality. I gravitate more to backend services,
+      but I've shipped Ember applications too.
+  - title: Deployment Pipelines
+    description: |
+      Continous delivery underpins successful software teams. I've built
+      [golden
+      image](http://semaphoreci.com/community/tutorials/continuous-deployment-of-golden-images-with-packer-and-semaphore)
+      pipelines, Docker orchestration prior to Kubernetes, [Helm
+      charts](https://www.slashdeploy.com/blog/2017/building-our-helm-chart/),
+      and custom pipelines for serverless applications. My preferred tools are
+      Buildkite, Containers, Ansible, and Ansible.
+  - title: Site Reliability Engineering
+    description: |
+      On-call, disaster recovery, infrastructure migration, new product
+      launches, and system maintenance are just a few examples of SRE work.
+      Primarily I focus on removing toil, improving developer tooling, and
+      fostering and operations-thinking culture. I share [public
+      postmortems](https://engineering.saltside.se/our-failure-migrating-to-kubernetes-25c28e6dd604)
+      when I can.
+  - title: Teaching
+    description: |
+      I've taught thousands of engineers how to build, run, and deploy their
+      own applications through my blog and freelance writing.  My work covers
+      software design and building deploy pipelines. I also created video
+      courses on Docker, Kubernetes, serverless, and AWS best practices.  Refer
+      to my [archive](https://www.slashdeploy.com/archive) for a complete list
+      of posts, tutorials, conference talks, webinars, and video courses.
+experience:
+  - timeframe: 2016 - Now
+    company: Self-Employed
+    position: Consultant and Technial Writer
+    location: Remote
+    description: |
+      Self-employed under the slashdeploy moniker. Primarily engaged in fully
+      stack development, documentation writing, video course production,
+      content marketing, email marketing, and launching my own SaaS products.
+  - timeframe: 2016 - 2018
+    company: Saltside
+    location: Bangalore, IN
+    position: SRE Team Lead
+    description: |
+      Transferred to Bangalore, India to bootstrap a new PDC. Hired, trained,
+      and mentored engineers in full stack development and TDD. Focused on AWS
+      cost reductions, sandbox dev environments, on-call incident handling, and
+      velocity focused projects. Conduct 1:1's. Migrated production to Kubernetes.
+  - timeframe: 2016 - 2014
+    company: Saltside
+    location: Gothenburg, SE
+    position: Platform Team Lead
+    description: |
+      Lead the team though a ground-up rewrite. Split multiple monolithic Rails
+      applications into 15 odd independently deployable services.
+      Responsibilities include educating new team members, setting code
+      standards, software architecture, infrastructure design, and deployment
+      pipline creation. I'm the most proud of my work here.
+  - timeframe: 2011 - 2014
+    company: RadiumCRM
+    location: Helsinki FI, Hamburg DE
+    position: Lead Developer
+    description: |
+      Tookover an existing Rails MVP and automated testing. Particpated in the
+      product roadmap and customer pitch meetings. Built API and integrations.
+      Created the next version as a single page application with a Sinatra
+      backend and Emberjs front-end.
+  - timeframe: 2007 - 2009
+    company: LARPD
+    location: Livermore, CA
+    position: Rails Developer
+    description: |
+      Replaced existing manual and paper based employee scheduling system with
+      a Rails application.
+portfolio:
+  - title: Billen
+    year: 2019
+    link: https://billen.app
+    description: |
+      SaaS product to fill the gap between Stripe and what business need. Rails
+      & Heroku. Much fun building this one.
+  - title: DevOps Course
+    year: 2019
+    link: https://freedevopscourse.com
+    description: |
+      An 8 part email course that covers DevOps principles and practices
+      along with practical implementation advice. Roughly ~20,000 words.
+  - title: TeamCI
+    year: 2018
+    link: https://teamci.co
+    description: |
+      SaaS product that applies a single linting standard to all team repos.
+      Leverages GitHub, Buildkite, Heroku, Rails, Docker, and a [ton of bash](https://hackernoon.com/inside-teamcis-check-code-b12770de57a5).
+  - title: Joy of Design
+    year: 2014
+    link: https://www.joyofdesign.info
+    description: |
+      A small book summarizing my take on software architecture with Ruby examples.
+      One of my favorite works and still accurate to this day.
+  - title: Rails Caching Guide
+    year: 2012
+    link: https://www.railscaching.com
+    description: |
+      Originally the "Advanced Rails Caching" blog post. I broke it out
+      into an organized series and covered more topics (such as HTTP caching).
