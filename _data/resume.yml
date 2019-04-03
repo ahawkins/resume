@@ -11,27 +11,34 @@ website: "https://www.slashdeploy.com"
 email: "adam@slashdeploy.com"
 archive: "https://www.slashdeploy.com/archive"
 intro: |
-  My goal is to help businesses succeed in software. This means accelerating
-  delivery, increasing reliability, and fewer regressions. In my view, DevOps
-  paired with the "you build it, you run it" mantra is the best methodology to
-  achieve these results.
+  I have 10 years of experience developing, deploying, and running web services
+  mixed between remote freelance work and on-site fulltime employment.
 
+  My goal is to accelerate software delivery, increase reliability, and
+  eliminate regressions. My core competency is developing, deploying, and
+  running cloud based web-services with DevOps and Site Reliability
+  Engineering practices.
+
+  I'm seeking remote employment as a Fullstack Engineer, DevOps Engineer, or
+  Site Reliability Engineer.
+background: |
   I started building webapps with PHP and jumped to Ruby on Rails. I learned
   software engineering fundamentals like OOP, TDD, and software architecture
-  through the Ruby community. Eventually I switched my focus to operations,
+  through the Ruby community. Eventually I switched focus to operations,
   infrastructure engineering, and continuous delivery under the broad Site
-  Reliability Engineering umbrella. This provides me the necessary skillset to
-  work wherever in the build-deploy-operate lifecycle.
-
-  My ideal position is in a small distributed team where my decisions impact
-  the business bottom line.
-
-  On the personal side: I moved abroad in 2011 to work and travel the world.
-  Since then I've lived in Finland, Germany, Sweden, and India while visiting
-  many more before returning to the US in 2019. My hobbies are
-  [travel](http://isos.ahawkins.me), reading, trance, hiking, and surfing. My
-  preferred [dev setup](https://github.com/ahawkins/dotfiles) is MacOS, vim, a
-  terminal, and my HD280's.
+  Reliability Engineering umbrella.
+skills: |
+  TDD, CI/CD, AWS (CloudFormation/DynamoDB/EC2/S3/Lambda/and more),
+  GCP, Docker, Kubernetes, Packer, Ansible, Bash, Ruby, Rails, Sinatra,
+  Emberjs, TypeScript, Serverless, Vagrant, technical writing, git, PostgreSQL,
+  MongoDB, Redis, Memcached, Fluentd, ElasticSearch, statsd, software architecture
+bio: |
+  I'm originally from the United States. I moved abroad in 2011 for work and
+  travel. I have lived in Finland, Germany, Sweden and India before returning
+  to the United States in 2019. Hobbies include
+  [travel](http://isos.ahawkins.me), reading, trance, hiking, and surfing.
+  MacOS, vim, a terminal, and HD280's is my preferred [dev
+  setup](https://github.com/ahawkins/dotfiles)
 expertise:
   - title: Full-Stack
     description: |
@@ -41,7 +48,7 @@ expertise:
       Kubernetes, and AWS means I can transform business requirements into
       running software.
       [TDD](https://www.slashdeploy.com/blog/2014/the-joy-of-teaching-tdd/) and
-      continous delivery ensure quality. I gravitate more to backend services,
+      continuous delivery ensure quality. I gravitate more to backend services,
       but I've shipped Ember applications too.
   - title: Deployment Pipelines
     description: |
@@ -51,7 +58,9 @@ expertise:
       pipelines, Docker orchestration prior to Kubernetes, [Helm
       charts](https://www.slashdeploy.com/blog/2017/building-our-helm-chart/),
       and custom pipelines for serverless applications. My preferred tools are
-      Buildkite, Containers, Ansible, and Ansible.
+      [Buildkite](https://www.slashdeploy.com/blog/2019/cd-chatops-with-slack-buildkite/),
+      Containers, and
+      [Ansible](https://semaphoreci.com/community/tutorials/introduction-to-ansible).
   - title: Site Reliability Engineering
     description: |
       On-call, disaster recovery, infrastructure migration, new product
@@ -71,47 +80,72 @@ expertise:
 experience:
   - timeframe: 2016 - Now
     company: Self-Employed
-    position: Consultant and Technial Writer
+    position: Consultant and Technical Writer
     location: Remote
-    description: |
-      Self-employed under the slashdeploy moniker. Primarily engaged in fully
-      stack development, documentation writing, video course production,
-      content marketing, email marketing, and launching my own SaaS products.
+    description:
+      - self-employed under the "slashdeploy" moniker
+      - Full-stack web application development and deployment for clients
+      - Technical writing (blog posts, user-facing documentation, whitepapers)
+      - Docker/Kubernetes/AWS/Serverless video course production
+      - Email marketing
+      - Launching my own SaaS products
   - timeframe: 2016 - 2018
-    company: Saltside
+    company: Saltside, Pvt Ltd.
     location: Bangalore, IN
     position: SRE Team Lead
-    description: |
-      Transferred to Bangalore, India to bootstrap a new PDC. Hired, trained,
-      and mentored engineers in full stack development and TDD. Focused on AWS
-      cost reductions, sandbox dev environments, on-call incident handling, and
-      velocity focused projects. Conduct 1:1's. Migrated production to Kubernetes.
-  - timeframe: 2016 - 2014
-    company: Saltside
+    description:
+      - Reported to CTO
+      - Transferred from Sweden to India to bootstrap new PDC
+      - Interviewed, trained, mentored junior to mid level employees
+      - Conduct 1:1's for my team members
+      - Responsible for production operations and infrastructure
+      - On-call duties for user facing web services and internal backend services
+      - Worked with developers to automate topic-branch environments
+      - Run workshops and classes on deployment automation and SRE practices
+      - Code review for infrastructure and application code
+      - Pair programmed with team members
+      - Major cost reductions in AWS infrastructure
+      - Rolled out production autoscaling for high-cost services
+      - Completed production migration to Kubernetes
+  - timeframe: 2014 - 2016
+    company: Saltside, AB
     location: Gothenburg, SE
     position: Platform Team Lead
-    description: |
-      Lead the team though a ground-up rewrite. Split multiple monolithic Rails
-      applications into 15 odd independently deployable services.
-      Responsibilities include educating new team members, setting code
-      standards, software architecture, infrastructure design, and deployment
-      pipline creation. I'm the most proud of my work here.
+    description:
+      - Reported to CTO
+      - Build, tested, and deployed first revenue generating service
+      - Introduced TDD to the wider development team
+      - On-call duties for user facing web services and internal backend services
+      - Lead team through a complete rewrite from scratch
+      - Launched second iteration of product based on SoA with 15 odd services (Ruby, Golang, Node.js, and Thrift)
+      - Interviewed and training new team members
+      - Set code standards
+      - Oversaw architecture and API design for all public and private APIs
+      - Oversaw cross-region AWS infrastructure design
+      - Pair programmed with team members
+      - Participated in architecture round-tables with CTO, Mobile, and Web team leads
   - timeframe: 2011 - 2014
-    company: RadiumCRM
+    company: RadiumCRM, OY
     location: Helsinki FI, Hamburg DE
     position: Lead Developer
-    description: |
-      Tookover an existing Rails MVP and automated testing. Particpated in the
-      product roadmap and customer pitch meetings. Built API and integrations.
-      Created the next version as a single page application with a Sinatra
-      backend and Emberjs front-end.
+    description:
+      - Add automated test coverage to the existing Rails application
+      - On-call duties for customer facing applications
+      - Participated in product roadmap and customer pitch meetings
+      - Build APIs and integrations for B2B services
+      - Release an API for a mobile application
+      - Interview new hires
+      - Pair programmed with team members
+      - Built second product iteration as a Sinatra backend and Emberjs front-end
+      - Set test and code quality standards
   - timeframe: 2007 - 2009
     company: LARPD
     location: Livermore, CA
     position: Rails Developer
-    description: |
-      Replaced existing manual and paper based employee scheduling system with
-      a Rails application.
+    description:
+      - Replaced existing manual paper based employee scheduling system with a Rails application
+      - TDD
+      - Heroku deployment
 portfolio:
   - title: Billen
     year: 2019

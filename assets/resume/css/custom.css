@@ -24,3 +24,17 @@ a .fa,
 .t-link-container .t-link-container__item--blended {
   transition: none;
 }
+
+.c-work__timeframe, .c-work__location {
+	opacity: 1;
+	font-size: inherit;
+}
+
+.c-work__title {
+	font-size: inherit;
+}
+
+.list-experience {
+	margin-right: 0;
+	margin-left: 0;
+}

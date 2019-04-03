@@ -310,7 +310,11 @@
                                                 </div>
                                             </div>
                                             <div class="o-grid__col-md-7">
-																							{{ item.description | markdownify }}
+																							<ul class="list-experience">
+																								{% for entry in item.description %}
+																									<li>{{ entry }}</li>
+																								{% endfor %}
+																							<ul>
                                             </div>
                                         </div><!-- /o-grid -->
                                     </div><!-- /o-content -->
@@ -370,6 +374,120 @@
                     </div><!-- /o-section__container -->
                 </div><!-- /o-container -->
 
+            </section><!-- /o-section -->
+
+            <!-- ################################ -->
+            <!-- ############ Skills ############# -->
+            <!-- ################################ -->
+
+            <section class="o-section  t-section  ">
+
+                <div class="o-section__header-bg  t-section__header"></div>
+                <div class="o-section__content-bg  t-section__content"></div>
+
+                <div class="o-container">
+                    <div class="o-section__container">
+
+                        <header class="o-section__header  t-section__header">
+                            <div class="o-content">
+                                <h2 class="o-section__heading">
+                                    Skills
+                                </h2>
+                            </div>
+                        </header><!-- /o-section__header -->
+
+                        <div class="o-section__content  t-section__content  ">
+
+                            <div class="o-content">
+                                <div class="c-intro">
+                                    <div class="o-content__body">
+																			{{ site.data.resume.skills | markdownify }}
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div><!-- /o-section__content -->
+
+                    </div><!-- /o-section__container -->
+                </div><!-- /o-container -->
+            </section><!-- /o-section -->
+
+            <!-- ################################ -->
+            <!-- ############ OUTRO ############# -->
+            <!-- ################################ -->
+
+            <section class="o-section  t-section  ">
+
+                <div class="o-section__header-bg  t-section__header"></div>
+                <div class="o-section__content-bg  t-section__content"></div>
+
+                <div class="o-container">
+                    <div class="o-section__container">
+
+                        <header class="o-section__header  t-section__header">
+                            <div class="o-content">
+                                <h2 class="o-section__heading">
+                                    Background
+                                </h2>
+                                <div class="o-content__body  o-section__description">
+                                    A bit of my professional history
+                                </div>
+                            </div>
+                        </header><!-- /o-section__header -->
+
+                        <div class="o-section__content  t-section__content  ">
+
+                            <div class="o-content">
+                                <div class="c-intro">
+                                    <div class="o-content__body">
+																			{{ site.data.resume.background | markdownify }}
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div><!-- /o-section__content -->
+
+                    </div><!-- /o-section__container -->
+                </div><!-- /o-container -->
+            </section><!-- /o-section -->
+
+            <!-- ################################ -->
+            <!-- ############ BIO   ############# -->
+            <!-- ################################ -->
+
+            <section class="o-section  t-section  ">
+
+                <div class="o-section__header-bg  t-section__header"></div>
+                <div class="o-section__content-bg  t-section__content"></div>
+
+                <div class="o-container">
+                    <div class="o-section__container">
+
+                        <header class="o-section__header  t-section__header">
+                            <div class="o-content">
+                                <h2 class="o-section__heading">
+                                    Biography
+                                </h2>
+                                <div class="o-content__body  o-section__description">
+																	Outside of work
+                                </div>
+                            </div>
+                        </header><!-- /o-section__header -->
+
+                        <div class="o-section__content  t-section__content  ">
+
+                            <div class="o-content">
+                                <div class="c-intro">
+                                    <div class="o-content__body">
+																			{{ site.data.resume.bio | markdownify }}
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div><!-- /o-section__content -->
+
+                    </div><!-- /o-section__container -->
+                </div><!-- /o-container -->
             </section><!-- /o-section -->
 
 
