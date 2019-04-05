@@ -100,25 +100,24 @@ experience:
       - Managed production operations for internal and user facing services
       - Lead cross-functional post-mortems
       - Spread SRE practices through internal workshops
-      - Increased velocity with automated topic-branch deployments and per-engineer sandboxes
-      - Reviewed infrastructure and application code
+      - Automated topic-branch deployments and per-engineer sandboxes
+      - Reviewed infrastructure and application code PR's
       - Reduced AWS spend 25% through infrastructure optimizations
-      - Rolled out production autoscaling for high-cost services
+      - Rolled out production autoscaling
       - Migrated production and pre-production environments to Kubernetes
   - timeframe: 2014 - 2016
     company: Saltside, AB
     location: Gothenburg, SE
     position: Platform Team Lead
     description:
-      - Built and deployed first revenue generating service
-      - Introduced TDD to the wider development team
-      - Responded to pages for interna and user-facing services
+      - Shipped first revenue generating service
+      - Introduced TDD to the development team
+      - Responded to pages for internal and user-facing services
       - Lead team through ground-up rewrite
       - Split an untested monolithic system into a tested SoA systems (Ruby, Golang, Node.js, and Thrift)
       - Interviewed and training new team members
-      - Set code standards
-      - Oversaw architecture and API design for all public and private APIs
-      - Oversaw cross-region AWS infrastructure design
+      - Guided architecture and API design for all public and private APIs
+      - Guided cross-region AWS infrastructure design
       - Participated in architecture round-tables with CTO, Mobile, and Web team leads
   - timeframe: 2011 - 2014
     company: RadiumCRM, OY
@@ -126,13 +125,13 @@ experience:
     position: Lead Developer
     description:
       - Added automated test coverage to the existing Rails application
-      - Responsed to production pages
+      - Responsed to production for user-facing services
       - Participated in product roadmap and customer pitch meetings
-      - Built APIs and integrations for B2B services
-      - Released an API for a mobile application
-      - Interview new hires
+      - Integrated other B2B services
+      - Released mobile application API
+      - Interviewed new hires
       - Pair programmed with team members
-      - Built second product iteration as a Sinatra backend and Emberjs front-end
+      - Built second generation product as a SPA with Ruby & Emberjs
       - Defined test and code quality standards
   - timeframe: 2007 - 2009
     company: LARPD
