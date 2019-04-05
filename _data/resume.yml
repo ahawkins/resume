@@ -28,10 +28,11 @@ background: |
   infrastructure engineering, and continuous delivery under the broad Site
   Reliability Engineering umbrella.
 skills: |
-  TDD, CI/CD, AWS (CloudFormation/DynamoDB/EC2/S3/Lambda/and more),
-  GCP, Docker, Kubernetes, kops, Helm, Packer, Ansible, Bash, Ruby, Rails, Sinatra,
+  TDD, CI/CD, AWS (CloudFormation/DynamoDB/EC2/S3/Lambda/and more), GCP,
+  Docker, Kubernetes, kops, Helm, Packer, Ansible, Bash, Ruby, Rails, Sinatra,
   Emberjs, TypeScript, Serverless, Vagrant, technical writing, git, PostgreSQL,
-  MongoDB, Redis, Memcached, Fluentd, ElasticSearch, statsd, software architecture
+  MongoDB, Redis, Memcached, Fluentd, ElasticSearch, statsd, Heroku, software
+  architecture
 bio: |
   I'm originally from the United States. I moved abroad in 2011 for work and
   travel. I have lived in Finland, Germany, Sweden, and India before returning
