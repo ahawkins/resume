@@ -29,7 +29,7 @@ background: |
   Reliability Engineering umbrella.
 skills: |
   TDD, CI/CD, AWS (CloudFormation/DynamoDB/EC2/S3/Lambda/and more),
-  GCP, Docker, Kubernetes, kops, Packer, Ansible, Bash, Ruby, Rails, Sinatra,
+  GCP, Docker, Kubernetes, kops, Helm, Packer, Ansible, Bash, Ruby, Rails, Sinatra,
   Emberjs, TypeScript, Serverless, Vagrant, technical writing, git, PostgreSQL,
   MongoDB, Redis, Memcached, Fluentd, ElasticSearch, statsd, software architecture
 bio: |
