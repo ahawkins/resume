@@ -30,9 +30,10 @@ background: |
 skills: |
   TDD, CI/CD, AWS (CloudFormation/DynamoDB/EC2/S3/Lambda/and more), GCP,
   Docker, Kubernetes, kops, Helm, Packer, Ansible, Bash, Ruby, Rails, Sinatra,
-  Emberjs, TypeScript, Serverless, Vagrant, technical writing, git, PostgreSQL,
-  MongoDB, Redis, Memcached, Fluentd, ElasticSearch, statsd, Heroku, software
-  architecture
+  Emberjs, TypeScript, HTML, CSS/SCSS/SASS, Serverless, Vagrant, technical
+  writing, git, PostgreSQL, MongoDB, Redis, Memcached, Fluentd, ElasticSearch,
+  statsd, Heroku, software architecture, deployment pipelines, smoke testing,
+  automated testing
 bio: |
   I'm originally from the United States. I moved abroad in 2011 for work and
   travel. I have lived in Finland, Germany, Sweden, and India before returning
