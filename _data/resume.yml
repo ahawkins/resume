@@ -34,7 +34,7 @@ skills: |
   MongoDB, Redis, Memcached, Fluentd, ElasticSearch, statsd, software architecture
 bio: |
   I'm originally from the United States. I moved abroad in 2011 for work and
-  travel. I have lived in Finland, Germany, Sweden and India before returning
+  travel. I have lived in Finland, Germany, Sweden, and India before returning
   to the United States in 2019. Hobbies include
   [travel](http://isos.ahawkins.me), reading, trance, hiking, and surfing.
   MacOS, vim, a terminal, and HD280's is my preferred [dev
@@ -42,7 +42,7 @@ bio: |
 expertise:
   - title: Full-Stack
     description: |
-      "You build, you run it" is my default mode. Expertise with
+      "You build it, you run it" is my default mode. Expertise with
       [Ruby](https://www.joyofdesign.info) (and
       [Rails](https://railscaching.com)), JavaScript, Node.js, Bash, Docker,
       Kubernetes, and AWS means I can transform business requirements into
@@ -64,9 +64,9 @@ expertise:
   - title: Site Reliability Engineering
     description: |
       On-call, disaster recovery, infrastructure migration, new product
-      launches, and system maintenance are just a few examples of SRE work.
-      Primarily I focus on removing toil, improving developer tooling, and
-      fostering and operations-thinking culture. I share [public
+      launches, and system maintenance are a few examples of my SRE work.
+      I focus on removing toil, improving developer tooling, and
+      fostering an operations-thinking culture. I share [public
       postmortems](https://engineering.saltside.se/our-failure-migrating-to-kubernetes-25c28e6dd604)
       when I can.
   - title: Teaching
@@ -83,82 +83,77 @@ experience:
     position: Consultant and Technical Writer
     location: Remote
     description:
-      - self-employed under the "slashdeploy" moniker
-      - Full-stack web application development and deployment for clients
-      - Technical writing (blog posts, user-facing documentation, whitepapers)
-      - Docker/Kubernetes/AWS/Serverless video course production
-      - Email marketing
-      - Launching my own SaaS products
+      - Self-employed under the "Slashdeploy" moniker
+      - Developed and deployed web applications for clients
+      - Wrote technical articles (blog posts, user-facing documentation, and whitepapers)
+      - Produced Docker/Kubernetes/AWS/serverless video coures
+      - Wrote education email courses
+      - Launched my own SaaS products
   - timeframe: 2016 - 2018
     company: Saltside, Pvt Ltd.
     location: Bangalore, IN
     position: SRE Team Lead
     description:
-      - Reported to CTO
-      - Transferred from Sweden to India to bootstrap new PDC
+      - Bootstrapped a new 20 engineer PDC
       - Interviewed, trained, mentored junior to mid level employees
-      - Conduct 1:1's for my team members
-      - Responsible for production operations and infrastructure
-      - On-call duties for user facing web services and internal backend services
-      - Worked with developers to automate topic-branch environments
-      - Run workshops and classes on deployment automation and SRE practices
-      - Code review for infrastructure and application code
-      - Pair programmed with team members
-      - Major cost reductions in AWS infrastructure
+      - Conducted 1:1's and performance reviews
+      - Managed production operations for internal and user facing services
+      - Lead cross-functional post-mortems
+      - Spread SRE practices through internal workshops
+      - Increased velocity with automated topic-branch deployments and per-engineer sandboxes
+      - Reviewed infrastructure and application code
+      - Reduced AWS spend 25% through infrastructure optimizations
       - Rolled out production autoscaling for high-cost services
-      - Completed production migration to Kubernetes
+      - Migrated production and pre-production environments to Kubernetes
   - timeframe: 2014 - 2016
     company: Saltside, AB
     location: Gothenburg, SE
     position: Platform Team Lead
     description:
-      - Reported to CTO
-      - Build, tested, and deployed first revenue generating service
+      - Built and deployed first revenue generating service
       - Introduced TDD to the wider development team
-      - On-call duties for user facing web services and internal backend services
-      - Lead team through a complete rewrite from scratch
-      - Launched second iteration of product based on SoA with 15 odd services (Ruby, Golang, Node.js, and Thrift)
+      - Responded to pages for interna and user-facing services
+      - Lead team through ground-up rewrite
+      - Split an untested monolithic system into a tested SoA systems (Ruby, Golang, Node.js, and Thrift)
       - Interviewed and training new team members
       - Set code standards
       - Oversaw architecture and API design for all public and private APIs
       - Oversaw cross-region AWS infrastructure design
-      - Pair programmed with team members
       - Participated in architecture round-tables with CTO, Mobile, and Web team leads
   - timeframe: 2011 - 2014
     company: RadiumCRM, OY
     location: Helsinki FI, Hamburg DE
     position: Lead Developer
     description:
-      - Add automated test coverage to the existing Rails application
-      - On-call duties for customer facing applications
+      - Added automated test coverage to the existing Rails application
+      - Responsed to production pages
       - Participated in product roadmap and customer pitch meetings
-      - Build APIs and integrations for B2B services
-      - Release an API for a mobile application
+      - Built APIs and integrations for B2B services
+      - Released an API for a mobile application
       - Interview new hires
       - Pair programmed with team members
       - Built second product iteration as a Sinatra backend and Emberjs front-end
-      - Set test and code quality standards
+      - Defined test and code quality standards
   - timeframe: 2007 - 2009
     company: LARPD
     location: Livermore, CA
     position: Rails Developer
     description:
       - Replaced existing manual paper based employee scheduling system with a Rails application
-      - TDD
-      - Heroku deployment
+      - Deployed application to Heroku
 portfolio:
   - title: Billen
     year: 2019
     link: https://billen.app
     description: |
-      SaaS product to fill the gap between Stripe and what business need. Rails
-      & Heroku. Much fun building this one.
+      SaaS product to fill the gap between Stripe and what businesses need. Rails
+      & Heroku.
   - title: DevOps Course
     year: 2019
     link: https://freedevopscourse.com
     description: |
       An 8 part email course that covers DevOps principles and practices
-      along with practical implementation advice. Roughly ~20,000 words.
+      along with practical implementation advice.
   - title: TeamCI
     year: 2018
     link: https://teamci.co
