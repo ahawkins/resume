@@ -84,11 +84,10 @@ experience:
     position: Consultant and Technical Writer
     location: Remote
     description:
-      - Self-employed under the "Slashdeploy" moniker
       - Developed and deployed web applications for clients
       - Wrote technical articles (blog posts, user-facing documentation, and whitepapers)
       - Produced Docker/Kubernetes/AWS/serverless video coures
-      - Wrote education email courses
+      - Wrote educational email courses
       - Launched my own SaaS products
   - timeframe: 2016 - 2018
     company: Saltside, Pvt Ltd.
