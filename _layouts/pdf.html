@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>{{ site.data.resume.first_name }} {{ site.data.resume.last_name }}</title>
+	<meta name="description" content="Resume for {{ site.data.resume.first_name }} {{ site.data.resume.last_name }}">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.css">
+	<link rel="stylesheet" href="{{ "/assets/css/pdf.css" | absolute_url }}">
+</head>
+
+<body>
+	<div class="section">
+		<div class="container is-desktop">
+			<div class="container-card is-clearfix">
+				<figure class="image is-128x128 is-pulled-left headshot">
+					<img src="{{ "assets/resume/images/header/avatar.jpg" | absolute_url }}">
+				</figure>
+				<h1 class="title">{{ site.data.resume.first_name }} {{ site.data.resume.last_name }}</h1>
+				<h2 class="subtitle">{{ site.data.resume.tag_line }}</h2>
+				<p>{{ site.data.resume.location }} | {{ site.data.resume.phone }}</p>
+				<p><a href="mailto:{{ site.data.resume.email }}">{{ site.data.resume.email }}</a> - <a href="{{ site.data.resume.website }}">{{ site.data.resume.website }}</a></p>
+			</div>
+			<div class="content content-resume">
+				{{ site.data.resume.intro | markdownify }}
+
+				<h2 class="is-size-5">Expertise</h2>
+				{% for item in site.data.resume.expertise %}
+					<h3 class="is-size-6">{{ item.title }}</h3>
+					{{ item.description | markdownify }}
+				{% endfor %}
+
+				<h2 class="is-size-5">Experience</h2>
+				{% for item in site.data.resume.experience %}
+				<h3 class="title is-6">{{ item.company }} ({{ item.timeframe }})</h3>
+					<p class="subtitle is-7"><em>{{ item.position }}, {{ item.location }}</em><p>
+					<ul>
+						{% for entry in item.description %}
+							<li>{{ entry }}</li>
+						{% endfor %}
+					</ul>
+				{% endfor %}
+
+				<h2 class="is-size-5">Works</h2>
+				<ul>
+					{% for item in site.data.resume.portfolio %}
+						<li class="list-works">
+							<a href="{{ item.link }}">{{ item.title }}</a> - <em>{{ item.year }}</em> - {{ item.description | markdownify }}</a>
+						</li>
+					{% endfor %}
+				</ul>
+
+				<h2 class="is-size-5">Skills</h2>
+				{{ site.data.resume.skills | markdownify }}
+
+				<h2 class="is-size-5">Background</h2>
+				{{ site.data.resume.background | markdownify }}
+
+				<h2 class="is-size-5">Bio</h2>
+				{{ site.data.resume.bio | markdownify }}
+			</div>
+		</div>
+	</div>
+</body>
+</html>
