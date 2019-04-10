@@ -17,3 +17,19 @@
 .content-resume h2 {
 	margin-top: 0 !important;
 }
+
+@media screen {
+	.print-link {
+		display: none;
+	}
+}
+
+@media print {
+	.section-cover-letter {
+		display: none;
+	}
+
+	.section {
+		padding: 0;
+	}
+}

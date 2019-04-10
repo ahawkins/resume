@@ -11,29 +11,52 @@ website: "https://www.slashdeploy.com"
 email: "adam@slashdeploy.com"
 archive: "https://www.slashdeploy.com/archive"
 intro: |
-  I have 10 years of experience developing, deploying, and running web services
-  mixed between remote freelance work and on-site fulltime employment.
+  I've spent 10 years developing the skills to increase velocity,
+  reliability, and quality for my employers and clients. These skills enable
+  me to turn business requirements into production software, lead teams, and
+  work effciently across the SDLC and stack.
 
-  My goal is to accelerate software delivery, increase reliability, and
-  eliminate regressions. My core competency is developing, deploying, and
-  running cloud based web-services with DevOps and Site Reliability
-  Engineering practices.
+  "You build it, you run it" is my mantra. Expertise in Ruby and JavaScript
+  allows me to build web applications or backend services. Expertise with AWS,
+  Bash, Docker, Kubernetes, and roll your own VMs allows me to create automated
+  deployment pipelines to get software in production. Finally, applying DevOps
+  and site reliability engineering practice ensure the entire process runs
+  smoothly. I thrive in this feedback loop.
 
-  I'm seeking remote employment as a Fullstack Engineer, DevOps Engineer, or
-  Site Reliability Engineer.
-background: |
-  I started building webapps with PHP and jumped to Ruby on Rails. I learned
-  software engineering fundamentals like OOP, TDD, and software architecture
-  through the Ruby community. Eventually I switched focus to operations,
-  infrastructure engineering, and continuous delivery under the broad Site
-  Reliability Engineering umbrella.
+  I've shared knowledge about this feedback loop throughout my career. I've
+  trained team members to follow the mantra through DevOps and site reliability
+  engineering practices. I've written numerous continuous delivery tutorials,
+  produced long form video course, and an entire email course on DevOps. In my
+  view, one doesn't fully comprehend a subject unless they can explain it to
+  someon else. Writing and teaching solidifed my own understanding and, more
+  importantly, spread the knowledge and skills to others.
+
+  The industry labels my skills as "Full Stack Development", "Backend
+  Engineer", "DevOps Engineer", or "Site Reliability Engineer". I don't piegon
+  hole myself because I'm a mix.  My skills allow me to pull the levers that
+  generate the best business results if that means building a SPA, deploying a
+  micro service, removing toil, or automating deploys. That's just all in a
+  day's work to me.
+
+  I'm searching for a remote and distributed (there's a difference) team
+  because those teams tend to favor results over process. I'm confident I can
+  drive business results and delight your customers with quality and reliable
+  production software.
+summary: |
+  Senior software professional who shipped new products, rescued production
+  from 3AM outages, and taught others to do the same. 10 years of full-stack
+  experience backed by DevOps and SRE practices.
 skills: |
-  TDD, CI/CD, AWS (CloudFormation/DynamoDB/EC2/S3/Lambda/and more), GCP,
-  Docker, Kubernetes, kops, Helm, Packer, Ansible, Bash, Ruby, Rails, Sinatra,
-  Emberjs, TypeScript, HTML, CSS/SCSS/SASS, Serverless, Vagrant, technical
-  writing, git, PostgreSQL, MongoDB, Redis, Memcached, Fluentd, ElasticSearch,
-  statsd, Heroku, software architecture, deployment pipelines, smoke testing,
-  automated testing
+  - Languages: Ruby, JavaScript, Node.js, TypeScript, Bash, HTML, CSS/SCSS/LESS
+  - Tools & Technologies: Packer, Vagrant, Ansible, Puppet, CloudFormation,
+    AWS, GCP, Azure, Docker, Docker Compose, Kubernetes, Helm, Kops, Emberjs,
+    Rails, Fluentd, statsd
+  - Datastores: MySQL, PostgreSQL, MongoDB, ElasticSearch, Redis, Memcached, DynamoDB
+  - Practices: TDD, continous integration, continous delivery, continuous
+    deployment, monolithic architecture, service oriented architecture,
+    microservice archiecture, configure management, infrastructure-as-code,
+    deployment pipelines, DevOps, site reliability engineering, continuous improvement,
+    pair programming, outage resolution
 bio: |
   I'm originally from the United States. I moved abroad in 2011 for work and
   travel. I have lived in Finland, Germany, Sweden, and India before returning
@@ -41,70 +64,28 @@ bio: |
   [travel](http://isos.ahawkins.me), reading, trance, hiking, and surfing.
   MacOS, vim, a terminal, and HD280's is my preferred [dev
   setup](https://github.com/ahawkins/dotfiles).
-expertise:
-  - title: Full-Stack
-    description: |
-      "You build it, you run it" is my default mode. Expertise with
-      [Ruby](https://www.joyofdesign.info) (and
-      [Rails](https://railscaching.com)), JavaScript, Node.js, Bash, Docker,
-      Kubernetes, and AWS means I can transform business requirements into
-      running software.
-      [TDD](https://www.slashdeploy.com/blog/2014/the-joy-of-teaching-tdd/) and
-      continuous delivery ensure quality. I gravitate more to backend services,
-      but I've shipped Ember applications too.
-  - title: Deployment Pipelines
-    description: |
-      Continous delivery underpins successful software teams. I've built
-      [golden
-      image](http://semaphoreci.com/community/tutorials/continuous-deployment-of-golden-images-with-packer-and-semaphore)
-      pipelines, Docker orchestration prior to Kubernetes, [Helm
-      charts](https://www.slashdeploy.com/blog/2017/building-our-helm-chart/),
-      and custom pipelines for serverless applications. My preferred tools are
-      [Buildkite](https://www.slashdeploy.com/blog/2019/cd-chatops-with-slack-buildkite/),
-      Containers, and
-      [Ansible](https://semaphoreci.com/community/tutorials/introduction-to-ansible).
-  - title: Site Reliability Engineering
-    description: |
-      On-call, disaster recovery, infrastructure migration, new product
-      launches, and system maintenance are a few examples of my SRE work.
-      I focus on removing toil, improving developer tooling, and
-      fostering an operations-thinking culture. I share [public
-      postmortems](https://engineering.saltside.se/our-failure-migrating-to-kubernetes-25c28e6dd604)
-      when I can.
-  - title: Teaching
-    description: |
-      I've taught thousands of engineers how to build, run, and deploy their
-      own applications through my blog and freelance writing.  My work covers
-      software design and building deploy pipelines. I also created video
-      courses on Docker, Kubernetes, serverless, and AWS best practices.  Refer
-      to my [archive](https://www.slashdeploy.com/archive) for a complete list
-      of posts, tutorials, conference talks, webinars, and video courses.
 experience:
   - timeframe: 2016 - Now
     company: Self-Employed
     position: Consultant and Technical Writer
     location: Remote
     description:
-      - Developed and deployed web applications for clients
-      - Wrote technical articles (blog posts, user-facing documentation, and whitepapers)
-      - Produced Docker/Kubernetes/AWS/serverless video coures
-      - Wrote educational email courses
       - Launched my own SaaS products
+      - Developed and deployed products for clients
+      - Wrote technical blog posts, documentation, email coures, and whitepapers
+      - Produced Docker/Kubernetes/AWS/serverless educational video coures
   - timeframe: 2016 - 2018
     company: Saltside, Pvt Ltd.
     location: Bangalore, IN
     position: SRE Team Lead
     description:
       - Bootstrapped a new 20 engineer PDC
-      - Interviewed, trained, mentored junior to mid level employees
-      - Conducted 1:1's and performance reviews
+      - Trained junior to mid level engineers to build and deploy their own services
       - Managed production operations for internal and user facing services
       - Lead cross-functional post-mortems
-      - Spread SRE practices through internal workshops
+      - Increased engineering autonomy through SRE and DevOps workshops
       - Automated topic-branch deployments and per-engineer sandboxes
-      - Reviewed infrastructure and application code PR's
-      - Reduced AWS spend 25% through infrastructure optimizations
-      - Rolled out production autoscaling
+      - Reduced AWS spend by 25% through infrastructure optimizations
       - Migrated production and pre-production environments to Kubernetes
   - timeframe: 2014 - 2016
     company: Saltside, AB
@@ -114,15 +95,13 @@ experience:
       - Shipped first revenue generating service
       - Introduced TDD to the development team
       - Responded to pages for internal and user-facing services
-      - Lead team through ground-up rewrite
-      - Split an untested monolithic system into a tested SoA systems (Ruby, Golang, Node.js, and Thrift)
+      - Lead ground up-rewrite from a monolithic architecture to service oriented architecture
+      - Increased reliability with a multi-tenant container architecture
+      - Designed public, private APIs, and cloud infrastructure topology
       - Interviewed and training new team members
-      - Guided architecture and API design for all public and private APIs
-      - Guided cross-region AWS infrastructure design
-      - Participated in architecture round-tables with CTO, Mobile, and Web team leads
   - timeframe: 2011 - 2014
     company: RadiumCRM, OY
-    location: Helsinki FI, Hamburg DE
+    location: Remote
     position: Lead Developer
     description:
       - Added automated test coverage to the existing Rails application
@@ -131,16 +110,15 @@ experience:
       - Integrated other B2B services
       - Released mobile application API
       - Interviewed new hires
-      - Pair programmed with team members
       - Built second generation product as a SPA with Ruby & Emberjs
-      - Defined test and code quality standards
   - timeframe: 2007 - 2009
     company: LARPD
     location: Livermore, CA
     position: Rails Developer
     description:
-      - Replaced existing manual paper based employee scheduling system with a Rails application
+      - Replaced existing manual paper work schedule system with a Rails application
       - Deployed application to Heroku
+      - Trained employees to use new system
 portfolio:
   - title: Billen
     year: 2019
