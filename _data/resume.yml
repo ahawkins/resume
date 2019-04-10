@@ -44,8 +44,8 @@ intro: |
   production software.
 summary: |
   Senior software professional who shipped new products, rescued production
-  from 3AM outages, and taught others to do the same. 10 years of full-stack
-  experience backed by DevOps and SRE practices.
+  from 3AM outages, and taught others to do the same. 10 years of full-stack Ruby
+  experience backed by DevOps and SRE practices in production.
 skills: |
   - Languages: Ruby, JavaScript, Node.js, TypeScript, Bash, HTML, CSS/SCSS/LESS
   - Tools & Technologies: Packer, Vagrant, Ansible, Puppet, CloudFormation,
