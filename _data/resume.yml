@@ -7,9 +7,9 @@ tag_line: "Velocity, Reliability, Quality focused Software Professional"
 github: "https://github.com/ahawkins"
 twitter: "https://twitter.com/adman65"
 linkedin: "https://www.linkedin.com/in/adam-hawkins-53109b14b/"
-website: "https://www.slashdeploy.com"
-email: "adam@slashdeploy.com"
-archive: "https://www.slashdeploy.com/archive"
+website: "https://hawkins.io"
+email: "adam@hawkins.io"
+archive: "https://hawkins.io/archive"
 intro: |
   I've spent 10 years developing the skills to increase velocity,
   reliability, and quality for my employers and clients. These skills enable
@@ -44,8 +44,8 @@ intro: |
   production software.
 summary: |
   Senior software professional who shipped new products, rescued production
-  from 3AM outages, and taught others to do the same. 10 years of full-stack Ruby
-  experience backed by DevOps and SRE practices in production.
+  from 3AM outages, and taught others to do the same. 10 years of full-cycle
+  experience backed by DevOps and SRE practices.
 skills: |
   - Languages: Ruby, JavaScript, Node.js, TypeScript, Bash, HTML, CSS/SCSS/LESS
   - Tools & Technologies: Packer, Vagrant, Ansible, Puppet, CloudFormation,
@@ -60,12 +60,22 @@ skills: |
 bio: |
   I'm originally from the United States. I moved abroad in 2011 for work and
   travel. I have lived in Finland, Germany, Sweden, and India before returning
-  to the United States in 2019. Hobbies include
+  to the United States in 2019. I live with my wifi in Hawaii. Hobbies include
   [travel](http://isos.ahawkins.me), reading, trance, hiking, and surfing.
-  MacOS, vim, a terminal, and HD280's is my preferred [dev
+  MacOS, vim, a terminal, and DT770's is my preferred [dev
   setup](https://github.com/ahawkins/dotfiles).
 experience:
-  - timeframe: 2016 - Now
+  - timeframe: 2019 - Now
+    company: Skillshare.com
+    position: Staff Site Reliability Engineer
+    location: Remote
+    description:
+      - Built company wide continous delivery infrastructure
+      - Promoted first-class software delivery practices
+      - Production on-call
+      - Managed AWS/Docker/Kubernetes infrastructure with Terraform
+      - Automated developer envirionment and setup with Ansible
+  - timeframe: 2016 - 2019
     company: Self-Employed
     position: Consultant and Technical Writer
     location: Remote
@@ -120,9 +130,15 @@ experience:
       - Deployed application to Heroku
       - Trained employees to use new system
 portfolio:
+  - title: Small Batches
+    year: 2020
+    link: https://smallbatches.fm
+    description: |
+      Podcast written and produced by myself on software delivery. Topics relate to the interaction of software engineering and business.
   - title: Billen
     year: 2019
     link: https://billen.app
+    dead: true
     description: |
       SaaS product to fill the gap between Stripe and what businesses need. Rails
       & Heroku.
@@ -135,6 +151,7 @@ portfolio:
   - title: TeamCI
     year: 2018
     link: https://teamci.co
+    dead: true
     description: |
       SaaS product that applies a single linting standard to all team repos.
       Leverages GitHub, Buildkite, Heroku, Rails, Docker, and a [ton of bash](https://hackernoon.com/inside-teamcis-check-code-b12770de57a5).
