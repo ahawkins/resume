@@ -52,7 +52,7 @@ skills: |
     AWS, GCP, Azure, Docker, Docker Compose, Kubernetes, Helm, Kops, Emberjs,
     Rails, Fluentd, statsd
   - Datastores: MySQL, PostgreSQL, MongoDB, ElasticSearch, Redis, Memcached, DynamoDB
-  - Practices: TDD, continous integration, continous delivery, continuous
+  - Practices: TDD, continuous integration, continuous delivery, continuous
     deployment, monolithic architecture, service oriented architecture,
     microservice archiecture, configure management, infrastructure-as-code,
     deployment pipelines, DevOps, site reliability engineering, continuous improvement,
@@ -60,7 +60,7 @@ skills: |
 bio: |
   I'm originally from the United States. I moved abroad in 2011 for work and
   travel. I have lived in Finland, Germany, Sweden, and India before returning
-  to the United States in 2019. I live with my wifi in Hawaii. Hobbies include
+  to the United States in 2019. I live with my wife in Hawaii. Hobbies include
   [travel](http://isos.ahawkins.me), reading, trance, hiking, and surfing.
   MacOS, vim, a terminal, and DT770's is my preferred [dev
   setup](https://github.com/ahawkins/dotfiles).
@@ -70,11 +70,11 @@ experience:
     position: Staff Site Reliability Engineer
     location: Remote
     description:
-      - Built company wide continous delivery infrastructure
+      - Built company wide continuous delivery infrastructure
       - Promoted first-class software delivery practices
       - Production on-call
       - Managed AWS/Docker/Kubernetes infrastructure with Terraform
-      - Automated developer envirionment and setup with Ansible
+      - Automated developer environment and setup with Ansible
   - timeframe: 2016 - 2019
     company: Self-Employed
     position: Consultant and Technical Writer
@@ -82,8 +82,8 @@ experience:
     description:
       - Launched my own SaaS products
       - Developed and deployed products for clients
-      - Wrote technical blog posts, documentation, email coures, and whitepapers
-      - Produced Docker/Kubernetes/AWS/serverless educational video coures
+      - Wrote technical blog posts, documentation, email courses, and whitepapers
+      - Produced Docker/Kubernetes/AWS/serverless educational video courses
   - timeframe: 2016 - 2018
     company: Saltside, Pvt Ltd.
     location: Bangalore, IN
@@ -115,7 +115,7 @@ experience:
     position: Lead Developer
     description:
       - Added automated test coverage to the existing Rails application
-      - Responsed to production for user-facing services
+      - Responded to production for user-facing services
       - Participated in product roadmap and customer pitch meetings
       - Integrated other B2B services
       - Released mobile application API
