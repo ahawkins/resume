@@ -158,12 +158,14 @@ portfolio:
   - title: Joy of Design
     year: 2014
     link: https://www.joyofdesign.info
+    dead: true
     description: |
       A small book summarizing my take on software architecture with Ruby examples.
       One of my favorite works and still accurate to this day.
   - title: Rails Caching Guide
     year: 2012
     link: https://www.railscaching.com
+    dead: true
     description: |
       Originally the "Advanced Rails Caching" blog post. I broke it out
       into an organized series and covered more topics (such as HTTP caching).
